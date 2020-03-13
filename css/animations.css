@@ -1,0 +1,40 @@
+@-webkit-keyframes html_background{
+    0%{
+        background-color: white;
+    }
+    100%{
+        background-color: #1f91ff;
+    }
+}
+@keyframes html_background{
+    0%{
+        background-color: white;
+    }
+    100%{
+        background-color: #1f91ff;
+    }
+}
+@-webkit-keyframes div1_anim{
+    0%{
+        opacity: 0;
+        -webkit-transform: translateY(100px);
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+}
+@keyframes div1_anim{
+    0%{
+        opacity: 0;
+        -webkit-transform: translateY(100px);
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+}
