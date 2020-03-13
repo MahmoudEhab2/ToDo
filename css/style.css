@@ -41,8 +41,7 @@ html{
     height: 50%;
     margin: auto;
     background-color: rgba(255, 255, 255, 0.1);
-    overflow-x: scroll;
-    overflow-y: hidden;
+    overflow: scroll;
     text-align: center;
     opacity: 0;
     -webkit-animation-name: div1_anim;
@@ -99,6 +98,6 @@ html{
 @media only screen and (max-width: 480px){
     .div2 img{
         display: inline-block;
-        margin: 1% 2px;
+        margin: 1% 0px;
     }
 }
